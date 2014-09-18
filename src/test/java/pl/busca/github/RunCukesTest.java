@@ -10,8 +10,9 @@ import cucumber.api.junit.Cucumber;
 //@Cucumber.Options(format = { "pretty", "html:target/cucumber-html-report", "json:target/cucumber.json" },
 // 				  features = "classpath:se/thinkcode/itake/oi_mundo.feature")
 
-@Cucumber.Options(format = { "pretty", "html:target/cucumber-html-report", "json:target/cucumber-html-report.json" },
-				  features={"classpath:pl/busca/github/github.feature"})
+@Cucumber.Options(format = { "pretty", "html:target/cucumber-html-report", "json:target/cucumber-report.json" },
+				  features={"classpath:pl/busca/github/github.feature"},
+				  tags = { "@active" })
 
 
 //@Cucumber.Options(
