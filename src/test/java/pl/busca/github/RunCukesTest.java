@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 
 @Cucumber.Options(format = { "pretty", "html:target/cucumber-html-report", "json:target/cucumber-report.json" },
 				  features={"classpath:pl/busca/github/github.feature"},
-				  tags = { "~@active" })
+				  tags = { "~@not_active" })
 
 
 //@Cucumber.Options(
